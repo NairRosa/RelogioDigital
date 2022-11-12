@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,600&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qahiri&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bdb2b2;
+}
+
+.clock {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.display {
+    width: 450px;
+    height: 200px;
+    background-color: rgb(63, 58, 58);
+    border: 10px solid rgb(216, 150, 161);
+    box-shadow: 2px 2px rgba(0, 0, 0, 1);
+    text-align: center;
+    line-height: 200px;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: 7rem;
+    font-family: 'Qahiri', sans-serif;
+    font-weight: 550;
+}
+
+footer {
+    font-size: 2rem;
+    margin-top: 10px;
+    font-family: 'Righteous', cursive;
+}
